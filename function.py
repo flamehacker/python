@@ -7,5 +7,6 @@ Car.colour = "red"
 b = Car.colour
 x = Car()
 x.colour = 'blue'
-
-print(x.colour)
+x.model = 'IZH'
+print(x.__dict__)
+print(x.model,Car.model)
